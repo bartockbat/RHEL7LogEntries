@@ -1,0 +1,23 @@
+{
+  "name": "docker-logentries",
+  "version": "0.3.1",
+  "description": "Forward all logs from all running docker containers to LogEntries",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nearform/docker-logentries.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matteo Collina <matteo.collina@nearform.com>",
+  "license": "MIT",
+  "dependencies": {
+    "docker-allcontainers": "^0.4.0",
+    "docker-loghose": "^0.6.0",
+    "docker-stats": "^0.4.0",
+    "end-of-stream": "^1.1.0",
+    "minimist": "^1.1.1",
+    "through2": "^0.6.5"
+  }
+}
