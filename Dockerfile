@@ -3,7 +3,7 @@
 # VERSION 0.2.0
 FROM registry.access.redhat.com/rhel7
 #FROM registry-rhconnect.rhcloud.com/rhel71_updates
-MAINTAINER GlenM gmillard@redhat
+MAINTAINER Redhat
 #USER root
 # install dev tools
 RUN yum clean all; \
